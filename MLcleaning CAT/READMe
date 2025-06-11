@@ -1,0 +1,14 @@
+STEPS
+
+Loaded the dataset.
+Encoded all the categorical columns.
+Selected all columns except G3 as features.
+Converted the final grade G3 into binary: pass (>=10) or fail (<10).
+Split the data into training and test sets (80/20).
+Trained a Logistic Regression model.
+Evaluated the model using accuracy, F1-score, and confusion matrix.
+
+REQUIREMENTS
+pandas
+scikit-learn
+openpyxl
